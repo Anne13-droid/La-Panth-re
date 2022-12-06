@@ -707,6 +707,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+ 
 }
 
 h3 {
@@ -736,7 +737,8 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #FFFFFF!important;
+    text-shadow: 2px 2px 2px #333333;
 }
 
 .portfolio-thumb {
@@ -765,7 +767,7 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-²²²²²
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
@@ -776,13 +778,16 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    text-shadow: 2px 2px 3px #242323 ; /*text shadow pour le contraste*/
 }
+
 .col-xs-12{
-    color: #333333;
+    color: #fefdfd;/*couleur de la citation*/
 }
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000!important;
+    color: #000000!important;/*changement de couleur pour les textes oranges*/
 }
 
 .btn-atomic-tangerine:hover {
@@ -1020,6 +1025,12 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .img-responsive{
+        width: 450px;
+       margin: auto;
+        
+    }
+
 }
 
 @media (max-width: 400px) {
