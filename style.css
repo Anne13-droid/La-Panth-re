@@ -293,7 +293,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    height: 50px; /*augmentation du height*/
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -679,6 +679,11 @@ a {
 p {
     font-size: 11px;
     text-align: center;/*centrage du texte*/
+}
+
+.center-block{
+    width: 100px;
+    height: 100px;
 }
 
 .tight-width-whitespace {
