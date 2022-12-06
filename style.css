@@ -791,6 +791,14 @@ h4 {
     color: #000000!important;/*changement de couleur pour les textes oranges*/
 }
 
+
+.img-responsive{ /*ajout de taille aux images*/
+    width: 270px;
+    height: 270px;
+   margin: auto;
+}
+
+
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
