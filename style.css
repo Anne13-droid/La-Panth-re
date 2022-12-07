@@ -652,6 +652,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: rgb(6,6,6)!important;
+    margin: 6px;
 }
 
 .container {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;/*centrage du texte*/
 }
 
@@ -804,6 +805,7 @@ h4 {
 ul{
     color: #000000; /*coloration des puces*/
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
