@@ -788,21 +788,25 @@ h4 {
 }
 
 .col-xs-12{
-    color: #fefdfd;/*couleur de la citation*/
+    color: #310505;/*couleur de la citation*/
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000!important;/*changement de couleur pour les textes oranges*/
 }
-
+.fa{
+    color: #000000;
+}
 
 .img-responsive{ /*ajout de taille aux images*/
     width: 270px;
     height: 270px;
    margin: auto;
 }
-
+ul{
+    color: #000000; /*coloration des puces*/
+}
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
@@ -831,11 +835,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -1039,9 +1043,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .img-responsive{
-        width: 450px;
-        height: 450px;
+    .img-responsive{ /*dimension des images*/
+        width: 350px;
+        object-fit: cover;
        margin: auto;
     }
 
