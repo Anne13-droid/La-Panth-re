@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -307,8 +307,9 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[src$=webp] {
     min-width: 100px;
+    width: 217px;
 }
 
 .nav-center .navbar-brand img {
