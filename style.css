@@ -348,7 +348,7 @@ button{
     position:fixed;
     bottom:20px;
     right:20px;
-    opacity:0;
+    opacity:1;
     z-index:500;
     transition:all .3s ease-in-out
 }
@@ -579,8 +579,10 @@ ul{
 }
 li{
     margin-top:9px;
-    font-size: 14px;
-    
+    font-size: 14px;   
+}
+li a:focus{
+    border-bottom: 2px solid #c27956;
 }
 .btn-atomic-tangerine:hover{
     background:#c27956!important;
