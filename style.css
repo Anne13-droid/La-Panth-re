@@ -20,7 +20,7 @@ a:hover{
     bottom:0;
     width:100%;
     z-index:100000;
-    background:#FFF url(img/pageload-spinner.gif) no-repeat center center
+    background:#FFFFFF url(img/pageload-spinner.gif) no-repeat center center
 }
 .bloc{
     width:100%;
@@ -231,7 +231,8 @@ a:hover{
         transform:translate(0,-50%);
         -webkit-transform:translateY(-50%)
     }
-    .nav>li .dropdown-menu a,.nav>li .dropdown-menu a:hover{
+    .nav>li .dropdown-menu a,
+    .nav>li .dropdown-menu a:hover{
         color:#484848
     }
     .nav-invert .site-navigation{
@@ -244,7 +245,9 @@ a:hover{
     .nav-center .navbar-header{
         width:100%
     }
-    .nav-center .navbar-header,.nav-center .navbar-brand,.nav-center .nav>li{
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav>li{
         float:none;
         display:inline-block
     }
@@ -349,7 +352,7 @@ button{
     bottom:20px;
     right:20px;
     opacity:1;
-    z-index:500;
+    z-index:1;
     transition:all .3s ease-in-out
 }
 .scrollToTop span{
@@ -475,7 +478,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     margin:auto auto auto auto
 }
 p{
-    font-size:12px;
+    font-size:13px;
     text-align:center
 }
 .center-block{
